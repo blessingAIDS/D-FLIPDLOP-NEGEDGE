@@ -1,16 +1,16 @@
 # D-FLIPDLOP-NEGEDGE
 
-**AIM:**
+*AIM:*
 
 To implement  D flipflop using verilog and validating their functionality using their functional tables
 
-**SOFTWARE REQUIRED:**
+*SOFTWARE REQUIRED:*
 
 Quartus prime
 
-**THEORY**
+*THEORY*
 
-**D Flip-Flop**
+*D Flip-Flop*
 
 D flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, D latch operates with enable signal. That means, the output of D flip-flop is insensitive to the changes in the input, D except for active transition of the clock signal. The circuit diagram of D flip-flop is shown in the following figure.
 
@@ -26,19 +26,36 @@ Therefore, D flip-flop always Hold the information, which is available on data i
 
 Next state of D flip-flop is always equal to data input, D for every positive transition of the clock signal. Hence, D flip-flops can be used in registers, shift registers and some of the counters.
 
-**Procedure**
+*Procedure*
 
-/* write all the steps invloved */
+1.Type the program in Quartus software.
+2.Compile and run the program.
+3.Generatethe RTL schematic and save the logic diagram.
+4.Create nodes for inputs and outputs to generate the timing diagram.
+5.For different input combinations generate the timing diagram.
 
-**PROGRAM**
+*PROGRAM*
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
+![Screenshot 2024-12-23 110830](https://github.com/user-attachments/assets/405af378-2bf9-4b37-8862-218b17e26557)
+
+
+/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+
+Developed by: BLESSING S
+
+RegisterNumber: 24002843
 */
 
-**RTL LOGIC FOR FLIPFLOPS**
+*RTL LOGIC FOR FLIPFLOPS*
+
+![Screenshot 2024-12-23 110840](https://github.com/user-attachments/assets/19060379-db70-4e56-b19d-217634846517)
+
+*TIMING DIGRAMS FOR FLIP FLOPS*
+
+![Screenshot 2024-12-23 110849](https://github.com/user-attachments/assets/3ca506d8-b02a-49a3-98c7-fc989e076430)
 
 
-**TIMING DIGRAMS FOR FLIP FLOPS**
+*RESULTS*
 
-
-**RESULTS**
+Thus, the D flipflop is designed, and its functionality is validated using the truth table
+and timing diagrams
